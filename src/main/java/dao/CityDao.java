@@ -5,9 +5,6 @@ import models.Street;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import utils.HibernateSessionFactoryUtil;
-
-import javax.jms.Session;
-import javax.transaction.Transaction;
 import java.util.List;
 
 public class CityDao {
