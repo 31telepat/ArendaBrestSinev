@@ -17,11 +17,11 @@ public class FlatController {
     private void saveFlat(){
         Flat flat = viewFlat.createFlat();
         service.save(flat);
-    }
+   }
 
-    private void deleteFlat(){
+  /*  private void deleteFlat(){
         Flat numberOfDeleteFlat = ViewFlat.deleteFlat();
         service.delete(numberOfDeleteFlat);
-    }
+    } */
 
 }

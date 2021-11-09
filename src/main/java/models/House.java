@@ -2,12 +2,14 @@ package models;
 
 import javax.persistence.*;
 import java.util.List;
+
+import dao.AbstractEntity;
 import lombok.Data;
 
 @Data
 @Entity
 @Table(name = "house")
-public class House {
+public class House extends AbstractEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;

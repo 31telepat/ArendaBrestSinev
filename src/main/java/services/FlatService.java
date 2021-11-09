@@ -3,7 +3,6 @@ package services;
 import dao.FlatDao;
 import lombok.NoArgsConstructor;
 import models.Flat;
-import models.Person;
 
 import java.util.List;
 

@@ -1,14 +1,15 @@
 package models;
 
 import javax.persistence.*;
-import java.util.ArrayList;
 import java.util.List;
+
+import dao.AbstractEntity;
 import lombok.Data;
 
 @Data
 @Entity
 @Table(name = "flat")
-public class Flat {
+public class Flat extends AbstractEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
